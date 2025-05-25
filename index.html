@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Blonde Royale</title>
+  <link rel="stylesheet" href="css/layout/main.css" />
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#inicio">Início</a></li>
+        <li><a href="#quem-somos">Quem Somos</a></li>
+        <li><a href="#cerveja">Cerveja</a></li>
+        <li><a href="#fabricacao">Fabricação</a></li>
+      </ul>
+    </nav>
+  </header>
+  <section id="inicio" class="hero-section">
+    <div class="overlay">
+      <h1>Bem-vindo ao Blonde Royale</h1>
+    </div>
+  </section>
+  <section id="quem-somos">
+<img src="img/img_do_grupo.jpeg" alt="Imagem do grupo" style="max-width:100%; border-radius:12px; margin-bottom:20px;">
+    <h2>Quem Somos</h2>
+    <p>Somos a equipe por trás do projeto <strong>Blonde Royale</strong>, Conheça nossos integrantes:</p>
+    <div style="display: flex; flex-wrap: wrap; gap: 2rem; justify-content: space-around; padding: 1rem 0;">
+      <div style="min-width: 250px;">
+        <strong>Arthur Barros Moreira dos Santos</strong><br>
+        <a href="mailto:arthur.bms4ntos@gmail.com">arthur.bms4ntos@gmail.com</a>
+      </div>
+      <div style="min-width: 250px;">
+        <strong>João Vitor Muniz Cipriano</strong><br>
+        <a href="mailto:joao.vmcipriano@senacsp.edu.br">joao.vmcipriano@senacsp.edu.br</a>
+      </div>
+      <div style="min-width: 250px;">
+        <strong>Kayky Ferreira Chaves</strong><br>
+        <a href="mailto:kaykych4ves@gmail.com">kaykych4ves@gmail.com</a>
+      </div>
+      <div style="min-width: 250px;">
+        <strong>Kevyn Alexandre Barrozo Valentim</strong><br>
+        <a href="mailto:Kevyn.a.b.v@gmail.com">Kevyn.a.b.v@gmail.com</a>
+      </div>
+      <div style="min-width: 250px;">
+        <strong>Lucas Martins Marques</strong><br>
+        <a href="mailto:lucas.marques03@hotmail.com">lucas.marques03@hotmail.com</a>
+      </div>
+    </div>
+  </section>
+  
+  
+<section id="fabricacao">
+  <h2>Fabricação</h2>
+  <p>Para garantir o controle preciso da temperatura durante a produção da cerveja, nossa equipe desenvolveu uma <strong>placa de circuito personalizada</strong>. Esse processo passou por várias etapas práticas e cuidadosas:</p>
+
+  <h3> Etapas da construção</h3>
+  <ul>
+    <li><strong>Preparação da placa:</strong> lixamos chapas de cobre para remover impurezas. Depois, usamos um corte a laser baseado em arquivos do programa KiCad, que definem trilhas e conexões.</li>
+    <li><strong>Corrosão:</strong> mergulhamos a placa em uma solução de percloreto de ferro por cerca de 15 minutos para remover o cobre excedente.</li>
+    <li><strong>Furação:</strong> utilizamos furadeira de bancada para fazer furos precisos onde os componentes seriam inseridos.</li>
+    <li><strong>Soldagem:</strong> aplicamos solda nas trilhas e soldamos cada componente com cuidado, garantindo boa condução elétrica.</li>
+    <li><strong>Programação:</strong> carregamos o código no Arduino Uno para permitir o controle de temperatura.</li>
+    <li><strong>Testes:</strong> testamos o funcionamento da placa e ajustamos o necessário.</li>
+  </ul>
+
+  <h3> Componentes Utilizados</h3>
+  <ul>
+    <li>Arduino Uno</li>
+    <li>Sensor de temperatura LM35</li>
+    <li>LCD 16x2 com módulo I2C</li>
+    <li>Optoacopladores 4N25 e MOC3021</li>
+    <li>TRIAC BTA41 600B ou BTA40 800B</li>
+    <li>Dissipador de calor em alumínio</li>
+    <li>Resistores: 33kΩ, 180Ω, 330Ω, 1kΩ, 10kΩ</li>
+    <li>Diodos 1N4007</li>
+    <li>Capacitor 10nF 400V (poliéster)</li>
+    <li>Push buttons normalmente abertos</li>
+    <li>Fio encapado de 3 vias</li>
+    <li>Bornes, soquetes e barra de pinos 1x40</li>
+    <li>Plug macho + plug fêmea 10A</li>
+    <li>Cabo flexível 3x2,5mm</li>
+    <li>Tubo de cobre 10mm</li>
+    <li>Cabo jumper 40 vias macho/macho</li>
+  </ul>
+</section>
+
+<section id="cerveja">
+    <h2>Cerveja</h2>
+    <p>A produção da cerveja é um processo artesanal que exige atenção, paciência e conhecimento sobre ingredientes e etapas. Abaixo explicamos como funciona o processo básico e, em seguida, mostramos como realizamos a fabricação da nossa Blonde Royale.</p>
+
+    <h3> Etapas Gerais da Produção</h3>
+    <ul>
+      <li><strong>1. Moagem do malte:</strong> o malte é moído para expor seu amido interno.</li>
+      <li><strong>2. Brassagem (Aquecimento):</strong> mistura-se o malte com água e aquece-se em diferentes temperaturas para converter amido em açúcar.</li>
+      <li><strong>3. Filtração:</strong> separa-se o mosto (líquido açucarado) do bagaço do malte.</li>
+      <li><strong>4. Fervura:</strong> o mosto é fervido, e nessa etapa são adicionados ingredientes como lúpulo, açúcar, casca de laranja e especiarias.</li>
+      <li><strong>5. Resfriamento:</strong> o mosto é rapidamente resfriado para a temperatura ideal de fermentação.</li>
+      <li><strong>6. Fermentação:</strong> adiciona-se o fermento, que transforma o açúcar em álcool.</li>
+    </ul>
+
+    <h3> Nosso Processo de Produção</h3>
+    <p>Data da produção: <strong>26/04/2025</strong><br>
+    Início: <strong>11h29</strong> — Término: <strong>15h18</strong></p>
+
+    <h4> Brassagem (Rampa de Temperatura)</h4>
+    <ul>
+      <li>1ª Etapa: <strong>42°C por 10 minutos</strong> — Início às 11h29</li>
+      <li>2ª Etapa: <strong>50°C por 10 minutos</strong> — Início às 11h40</li>
+      <li>3ª Etapa: <strong>66°C por 60 minutos</strong> — Início às 11h50</li>
+      <li>4ª Etapa: <strong>78°C por 10 minutos</strong> — Início às 12h55</li>
+    </ul>
+
+    <h4> Fervura</h4>
+    <ul>
+      <li>Início da fervura: <strong>13h40</strong></li>
+      <li>10 minutos: adição de <strong>lúpulo</strong></li>
+      <li>45 minutos: adição de <strong>açúcar</strong></li>
+      <li>55 minutos: adição de <strong>laranja (sem casca/semente) e coentro</strong></li>
+      <li>Término da fervura: <strong>14h41</strong></li>
+    </ul>
+
+    <h4> Fermentação</h4>
+    <p>Após o resfriamento, colocamos o fermento em um pote pequeno com água antes de adicioná-lo ao mosto. Isso ajuda a ativar o fermento e melhorar sua ação na transformação do açúcar em álcool.</p>
+
+    
+  <div style="display:flex; flex-wrap: wrap; gap: 20px; justify-content: center; margin-bottom: 30px;">
+    <img src="img/img_agua_do_malte.jpeg" style="max-width: 300px; border-radius: 10px;" alt="Água do malte">
+    <img src="img/img_pc_controlador_1.jpeg" style="max-width: 300px; border-radius: 10px;" alt="Controlador de temperatura 1">
+    <img src="img/img_pc_controlador_2.jpeg" style="max-width: 300px; border-radius: 10px;" alt="Controlador de temperatura 2">
+  </div>
+  
+  <div style="display:flex; flex-direction: column; align-items: center; gap: 20px; margin-bottom: 40px;">
+    <video controls style="max-width: 600px; border-radius: 10px;">
+      <source src="img/video_cerveja_1.mp4" type="video/mp4">
+    </video>
+    <video controls style="max-width: 600px; border-radius: 10px;">
+      <source src="img/video_cerveja_2.mp4" type="video/mp4">
+    </video>
+    <video controls style="max-width: 600px; border-radius: 10px;">
+      <source src="img/video_cerveja_3.mp4" type="video/mp4">
+    </video>
+  </div>
+
+
+<h4> Gráfico da Linha do Tempo</h4>
+    <img src="img/grafico_fabricacao_cerveja.png" alt="Gráfico de produção da cerveja" style="max-width: 100%; height: auto; margin-top: 1rem;" />
+  </section>
+
+  <!-- FABRICACAO_PLACEHOLDER -->
+  <footer>
+    <p>&copy; 2025 Blonde Royale</p>
+  </footer>
+</body>
+</html>

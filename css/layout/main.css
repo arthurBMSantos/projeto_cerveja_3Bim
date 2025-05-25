@@ -1,0 +1,142 @@
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    color: #231b09;
+    scroll-behavior: smooth;
+}
+header {
+    background-color: #eace97;
+    padding: 10px 20px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+nav li {
+    display: inline;
+}
+nav a {
+    text-decoration: none;
+    color: #211a09;
+    font-weight: bold;
+}
+nav a:hover {
+    text-decoration: underline;
+}
+.hero-section {
+    background-image: url('../../img/logo.png');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.hero-section .overlay {
+    background-color: rgba(255, 255, 255, 0.85);
+    padding: 40px;
+    border-radius: 15px;
+}
+.hero-section h1 {
+    color: #211a09;
+    font-size: 3rem;
+}
+section {
+    padding: 60px 20px;
+    max-width: 900px;
+    margin: auto;
+}
+h2 {
+    color: #211a09;
+    margin-bottom: 20px;
+}
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #eace97;
+    color: #231b09;
+    margin-top: 60px;
+}
+
+.hero-section {
+    background-image: url('../../img/logo.png');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    background-color: #eace97; /* fallback */
+}
+
+.hero-section .overlay {
+    background-color: rgba(255, 255, 255, 0.88);
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+section#quem-somos {
+    background-color: #f8f1e1;
+    border-radius: 12px;
+    padding: 60px 20px;
+    margin: 40px auto;
+}
+
+section#cerveja {
+    background-color: #fff6dc;
+    border-radius: 12px;
+    padding: 60px 20px;
+    margin: 40px auto;
+}
+
+section#quem-somos,
+section#cerveja {
+    background-color: #fff6dc;
+    border-radius: 12px;
+    padding: 60px 20px;
+    margin: 40px auto;
+}
+
+section#quem-somos h2,
+section#cerveja h2 {
+    font-size: 2.2rem;
+    color: #a8741a;
+    text-align: center;
+    margin-bottom: 30px;
+    border-bottom: 2px solid #e0c68d;
+    padding-bottom: 10px;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+section#fabricacao {
+    background-color: #fff6dc;
+    border-radius: 12px;
+    padding: 60px 20px;
+    margin: 40px auto;
+}
+
+section#fabricacao h2 {
+    font-size: 2.2rem;
+    color: #a8741a;
+    text-align: center;
+    margin-bottom: 30px;
+    border-bottom: 2px solid #e0c68d;
+    padding-bottom: 10px;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}
